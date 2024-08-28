@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-family-display: var(--font-PPEditorialOld), "sans-serif";
+  --font-family-mono: var(--font-SuisseIntlMono), "mono";
+  --font-family-serif: var(--font-MigraExtralight), "sans-serif";
+
+  --color-black: oklch(18.34% 0 0);
+  --color-white: oklch(80.15% 0 0);
+
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-marquee2: marquee2 30s linear infinite;
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    from {
+      transform: translateX(100%)
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+}
+
+body {
+  @apply antialiased selection:bg-white selection:text-black overscroll-none;
+}
+
+html.lenis {
+  @apply h-auto;
+}
+
+.lenis.lenis-smooth {
+  @apply scroll-auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  @apply overscroll-contain;
+}
+
+.lenis.lenis-stopped {
+  @apply overflow-hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  @apply pointer-events-none;
+}
+
+.a11y-focus {
+  @apply focus-visible:border-none focus-visible:outline-none focus-visible:ring-1 ring-white ring-offset-4 ring-offset-black;
+}

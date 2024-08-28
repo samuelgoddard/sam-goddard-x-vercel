@@ -1,0 +1,47 @@
+{
+  "name": "sam-goddard-x-vercel",
+  "description": "A simple one pager for Sam Goddard's Vercel Design Engineer application.",
+  "author": "Sam Goddard <hello@samgoddard.co.uk> (https://samgoddard.co.uk)",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/samuelgoddard/sam-goddard-x-vercel"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelgoddard/sam-goddard-x-vercel/issues"
+  },
+  "license": "ISC",
+  "keywords": [
+    "nextjs",
+    "next",
+    "tailwind",
+    "framer",
+    "motion"
+  ],
+  "homepage": "https://sam-goddard-x-vercel.vercel.app/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "@studio-freight/react-lenis": "^0.0.21",
+    "@tailwindcss/postcss": "^4.0.0-alpha.11",
+    "classnames": "^2.5.1",
+    "eslint-config-next": "^13.2.4",
+    "framer-motion": "^11.0.24",
+    "next": "^14.1.4",
+    "next-seo": "^6.5.0",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.36.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^4.0.0-alpha.11"
+  }
+}
