@@ -1,5 +1,4 @@
 # Sam Goddard - Vercel Design Engineer Application Presentation
-Website: [https://sam-goddard-x-vercel.vercel.app/](https://sam-goddard-x-vercel.vercel.app/)
 
 ## 🧑‍💻 Main Technology Used
 - React v18.2.0
